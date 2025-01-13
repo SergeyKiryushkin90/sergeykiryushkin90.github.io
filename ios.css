@@ -1,0 +1,141 @@
+body {
+  font-family: "Helvetica";
+  background-image: url('background.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: #c2c2c2db;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  box-sizing: border-box;
+  margin: 0px 0 0px 0;
+  display: flex;
+  width: 320px;
+  column-gap: 20px;
+  row-gap: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: 	RGB (33,28,32);
+}
+
+.header__textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.header__avatar {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.header__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+  align-items: center;
+}
+
+.header__subtitle {
+  color: #a6a5a5d9;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.links {
+  width: 630px;
+  margin-bottom: 20px;
+}
+
+.links__header {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 0px 0;
+  font-family: "Helvetica Neue";
+}
+
+.links__container {
+  list-style-type: none;
+  background: #1b161a;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid #80162a;
+  width: 600px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #0c79ff;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 20px 0;
+}
+.button-link {
+  margin-top: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #80162a;
+  border: 1px solid rgba(27, 31, 36, 0.15);
+  border-radius: 10px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #000000;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #300404;
+  color: #fff;
+  box-shadow: 0 1px 0 rgba(27, 31, 36, 0.1);
+}
+
